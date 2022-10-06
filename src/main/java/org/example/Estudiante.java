@@ -19,7 +19,8 @@ public class Estudiante {
         this.asignatura = asignatura;
     }
 
-    public Estudiante(Integer matricula, String nombre, Integer edad, Integer semestre, String facultad, Double promedio, Asignatura asignatura) {
+    public Estudiante(Integer matricula, String nombre, Integer edad, Integer semestre,
+                      String facultad, Double promedio, Asignatura asignatura) {
         this.matricula = matricula;
         this.nombre = nombre;
         this.edad = edad;
