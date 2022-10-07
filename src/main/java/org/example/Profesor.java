@@ -1,8 +1,11 @@
 package org.example;
 public class Profesor {
     //ATRIBUTOS
-    private String NomProfe, Materia, FacultadProfe;
-    private Integer EdadProfe, ClaveProfe;
+    private String nomProfe;
+    private String materia;
+    private Integer edadProfe;
+    private String facultadProfe;
+    private Integer claveProfe;
 
     //CONSTRUCTOR 1
     public Profesor(){
@@ -14,37 +17,35 @@ public class Profesor {
     }
 
     //CONSTRUCTOR 2
-    public Profesor(String NomProfe, String Materia, Integer EdadProfe, String FacultadProfe, Integer ClaveProfe){
-        this.NomProfe = NomProfe;
-        this.Materia = Materia;
-        this.EdadProfe = EdadProfe;
-        this.FacultadProfe = FacultadProfe;
-        this.ClaveProfe = ClaveProfe;
+    public Profesor(String nomProfe, String materia, Integer edadProfe, String facultadProfe, Integer claveProfe){
+        this.nomProfe = nomProfe;
+        this.materia = materia;
+        this.edadProfe = edadProfe;
+        this.facultadProfe = facultadProfe;
+        this.claveProfe = claveProfe;
     }
 
     //SETTERS AND GETTERS
-    public void setNomProfe(String NomProfe){ this.NomProfe = NomProfe;}
-        public String getNomProfe(){ return NomProfe; }
-    public void setMateria(String Materia){ this.Materia = Materia; }
-        public String getMateria(){ return Materia; }
-    public void setEdadProfe(Integer EdadProfe) { this.EdadProfe = EdadProfe; }
-        public Integer getEdadProfe(){ return EdadProfe; }
-    public void setFacultadProfe(String FacultadProfe) { this.FacultadProfe = FacultadProfe; }
-        public String getFacultadProfe(){ return FacultadProfe; }
-    public void setClaveProfe(Integer ClaveProfe) { this.ClaveProfe = ClaveProfe; }
-        public Integer getClaveProfe(){ return ClaveProfe; }
+    public void setNomProfe(String nomProfe){ this.nomProfe = nomProfe;}
+        public String getNomProfe(){ return nomProfe; }
+    public void setMateria(String materia){ this.materia = materia; }
+        public String getMateria(){ return materia; }
+    public void setEdadProfe(Integer edadProfe) {this.edadProfe = edadProfe; }
+        public Integer getEdadProfe(){ return edadProfe; }
+    public void setFacultadProfe(String facultadProfe) { this.facultadProfe = facultadProfe; }
+        public String getFacultadProfe(){ return facultadProfe; }
+    public void setClaveProfe(Integer claveProfe) { this.claveProfe = claveProfe; }
+        public Integer getClaveProfe(){ return claveProfe; }
 
     //TOSTRING
-
-
     @Override
     public String toString() {
         return "Profesor{" +
-                "NomProfe='" + NomProfe + '\'' +
-                ", Materia='" + Materia + '\'' +
-                ", FacultadProfe='" + FacultadProfe + '\'' +
-                ", EdadProfe=" + EdadProfe +
-                ", ClaveProfe=" + ClaveProfe +
+                "NomProfe='" + nomProfe + '\'' +
+                ", Materia='" + materia + '\'' +
+                ", FacultadProfe='" + facultadProfe + '\'' +
+                ", EdadProfe=" + edadProfe +
+                ", ClaveProfe=" + claveProfe +
                 '}';
     }
 }
