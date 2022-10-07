@@ -13,7 +13,8 @@ public class ControladorAsignatura {
         this.vista = vista;
     }
     public void addAsignatura(){
-
+        objAsig = new Asignatura();
+        asigList.add(objAsig);
     }
 
 
