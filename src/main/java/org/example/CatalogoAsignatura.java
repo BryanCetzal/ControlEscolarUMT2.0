@@ -36,60 +36,60 @@ public class CatalogoAsignatura {
     public void catalogo(Integer semestre){
         switch (semestre) {
             case 1:
-                System.out.println("[ALGI] - Álgebra Intermedia.");
-                System.out.println("[GEOA] - Geometría Analítica.");
-                System.out.println("[ALGO] - Algoritmia.");
-                System.out.println("[FUIS] - Fundamentos de Ingeniería de Software.");
-                System.out.println("[RESU] - Responsabilidad Social Universitaria.");
+                System.out.println("[ALGI] - Álgebra Intermedia (8 crts).");
+                System.out.println("[GEOA] - Geometría Analítica (8 crts).");
+                System.out.println("[ALGO] - Algoritmia (7 crts).");
+                System.out.println("[FUIS] - Fundamentos de Ingeniería de Software (8 crts).");
+                System.out.println("[RESU] - Responsabilidad Social Universitaria (6 crts).");
 
                 break;
             case 2:
-                System.out.println("[ALGS] - Álgebra Superior.");
-                System.out.println("[CALD] - Cálculo Diferencial.");
-                System.out.println("[PROE] - Programación Estructurada.");
-                System.out.println("[MATD] - Matemáticas Discretas.");
-                System.out.println("[CULM] - Cultura Maya");
+                System.out.println("[ALGS] - Álgebra Superior (8 crts).");
+                System.out.println("[CALD] - Cálculo Diferencial (7 crts).");
+                System.out.println("[PROE] - Programación Estructurada (8 crts).");
+                System.out.println("[MATD] - Matemáticas Discretas (8 crts).");
+                System.out.println("[CULM] - Cultura Maya (6 crts)");
                 break;
             case 3:
-                System.out.println("[ALGL] - Álgebra Lineal.");
-                System.out.println("[CALI] - Cálculo Integral.");
-                System.out.println("[PROO] - Programación Orientada a Objetos.");
-                System.out.println("[TEOC] - Teoría de la Computación.");
-                System.out.println("[AROC] - Arquitectura y Organización de Computadoras.");
+                System.out.println("[ALGL] - Álgebra Lineal (8 crts).");
+                System.out.println("[CALI] - Cálculo Integral (7 crts).");
+                System.out.println("[PROO] - Programación Orientada a Objetos (8 crts).");
+                System.out.println("[TEOC] - Teoría de la Computación (8 crts).");
+                System.out.println("[AROC] - Arquitectura y Organización de Computadoras (8 crts).");
                 break;
             case 4:
-                System.out.println("[PROB] - Probabilidad.");
-                System.out.println("[DISS] - Diseño de Software.");
-                System.out.println("[ESTD] - Estructura de Datos.");
-                System.out.println("[SISO] - Sistemas Operativos.");
-                System.out.println("[TELP] - Teoría de Lenguajes de Programación.");
+                System.out.println("[PROB] - Probabilidad (8 crts).");
+                System.out.println("[DISS] - Diseño de Software (8 crts).");
+                System.out.println("[ESTD] - Estructura de Datos (7 crts).");
+                System.out.println("[SISO] - Sistemas Operativos (8 crts).");
+                System.out.println("[TELP] - Teoría de Lenguajes de Programación (7 crts).");
                 break;
             case 5:
-                System.out.println("[INFE] - Inferencia Estadistica.");
-                System.out.println("[ARQS] - Arquitecturas de Software.");
-                System.out.println("[CONS] - Construcción de Software.");
-                System.out.println("[DIBD] - Diseño de Bases de Datos.");
-                System.out.println("[DEAW] - Desarrollo de Aplicaciones Web.");
+                System.out.println("[INFE] - Inferencia Estadistica (8 crts).");
+                System.out.println("[ARQS] - Arquitecturas de Software (8 crts).");
+                System.out.println("[CONS] - Construcción de Software (7 crts).");
+                System.out.println("[DIBD] - Diseño de Bases de Datos (8 crts).");
+                System.out.println("[DEAW] - Desarrollo de Aplicaciones Web (8 crts).");
                 break;
             case 6:
-                System.out.println("[METS] - Métricas de Software.");
-                System.out.println("[ASCS] - Aseguramiento de la Calidad del Software.");
-                System.out.println("[REQS] - Requisitos de Software.");
-                System.out.println("[INHC] - Interacción Humano Computadora.");
+                System.out.println("[METS] - Métricas de Software (8 crts).");
+                System.out.println("[ASCS] - Aseguramiento de la Calidad del Software (8 crts).");
+                System.out.println("[REQS] - Requisitos de Software (7 crts).");
+                System.out.println("[INHC] - Interacción Humano Computadora (8 crts).");
                 break;
             case 7:
-                System.out.println("[EXIS] - Experimentación en Ingeniería de Software.");
-                System.out.println("[VEVS] - Verificación y Validación de Software.");
-                System.out.println("[RESC] - Redes y Seguridad de Computadoras.");
-                System.out.println("[INNT] - Innovación Tecnológica.");
+                System.out.println("[EXIS] - Experimentación en Ingeniería de Software (8 crts).");
+                System.out.println("[VEVS] - Verificación y Validación de Software (8 crts).");
+                System.out.println("[RESC] - Redes y Seguridad de Computadoras (8 crts).");
+                System.out.println("[INNT] - Innovación Tecnológica (7 crts).");
                 break;
             case 8:
-                System.out.println("[ADPI] - Administración de Proyectos I.");
-                System.out.println("[MANS] - Mantenimiento de Software.");
-                System.out.println("[SISD] - Sistemas Distribuidos.");
+                System.out.println("[ADPI] - Administración de Proyectos I (8 crts).");
+                System.out.println("[MANS] - Mantenimiento de Software (8 crts).");
+                System.out.println("[SISD] - Sistemas Distribuidos (7 crts).");
                 break;
             case 9:
-                System.out.println("[APII] - Administración de Proyectos II");
+                System.out.println("[APII] - Administración de Proyectos II (8 crts).");
                 break;
         }
 
