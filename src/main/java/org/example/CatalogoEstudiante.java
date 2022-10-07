@@ -92,14 +92,6 @@ public class CatalogoEstudiante {
         System.out.println(obj1);
     }
 
-    public void msgGracias() {
-     System.out.println("Gracias por utilizar el sistema.");
-     }
-
-     public void msgVersion() {
-     System.out.println("Control Escolar ver. 0.2");
-     }
-
     public Integer menuModificarEstudiante() {
         scanner = new Scanner(System.in);
         //scanner.useDelimiter("\n");

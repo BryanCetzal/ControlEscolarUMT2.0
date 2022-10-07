@@ -11,7 +11,6 @@ public class ControladorEstudiante {
     ControladorEstudiante (CatalogoEstudiante vista) {
         estList = new ArrayList<Estudiante>();
         this.vista = vista;
-        this.vista.msgVersion();
     }
 
     public void addEstudiante(){

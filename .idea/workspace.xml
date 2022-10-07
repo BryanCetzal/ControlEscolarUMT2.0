@@ -4,10 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6be3f44-4173-482f-9239-88957066a62d" name="Changes" comment="Prueba">
+    <list default="true" id="c6be3f44-4173-482f-9239-88957066a62d" name="Changes" comment="Cambios basicos.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CatalogoProfesor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/CatalogoProfesor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Profesor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Profesor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Asignatura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Asignatura.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CatalogoAsignatura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/CatalogoAsignatura.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CatalogoEstudiante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/CatalogoEstudiante.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CatalogoPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/CatalogoPrincipal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ControladorAsignatura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ControladorAsignatura.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ControladorEstudiante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ControladorEstudiante.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ControladorPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ControladorPrincipal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

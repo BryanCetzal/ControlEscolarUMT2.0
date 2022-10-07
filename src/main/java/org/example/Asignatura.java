@@ -3,17 +3,20 @@ public class Asignatura {
     private String nombreAsig;
     private Integer semestre;
     private Integer creditos;
+    private Integer clave;
 
     public Asignatura(){
         this.nombreAsig = "UMT";
         this.semestre = 0;
         this.creditos = 0;
+        this.clave = 0;
     }
 
-    public Asignatura(String nombreAsig, Integer semestre, Integer creditos) {
+    public Asignatura(String nombreAsig, Integer semestre, Integer creditos, Integer clave) {
         this.nombreAsig = nombreAsig;
         this.semestre = semestre;
         this.creditos = creditos;
+        this.clave = clave;
     }
 
     public String getNombreAsig() {
@@ -40,12 +43,21 @@ public class Asignatura {
         this.creditos = creditos;
     }
 
+    public Integer getClave() {
+        return clave;
+    }
+
+    public void setClave(Integer clave) {
+        this.clave = clave;
+    }
+
     @Override
     public String toString() {
         return "Asignatura{" +
                 "nombreAsig='" + nombreAsig + '\'' +
                 ", semestre=" + semestre +
                 ", creditos=" + creditos +
+                ", clave=" + clave +
                 '}';
     }
 }
