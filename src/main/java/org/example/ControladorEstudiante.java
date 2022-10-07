@@ -3,14 +3,16 @@ package org.example;
 import java.util.ArrayList;
 
 public class ControladorEstudiante {
-    ArrayList <Estudiante> estList;
-    CatalogoEstudiante vista;
-    Estudiante obj1;
-    Asignatura asignatura;
+    private  ArrayList <Estudiante> estList;
+    private CatalogoEstudiante vista;
+    private ControladorAsignatura contrAsignatura;
+    private Estudiante obj1;
+    private Asignatura asignatura;
 
-    ControladorEstudiante (CatalogoEstudiante vista) {
+    ControladorEstudiante (CatalogoEstudiante vista, ControladorAsignatura asignatura) {
         estList = new ArrayList<Estudiante>();
         this.vista = vista;
+        asignatura = asignatura;
     }
 
     public void addEstudiante(){
@@ -20,7 +22,7 @@ public class ControladorEstudiante {
         estList.add(obj1);
     }
 
-    public void menuEstudiantes(){
+    public void menuEstudiante(){
         int opcion = 0;
         while (opcion != 6){
             switch (vista.menu()){
