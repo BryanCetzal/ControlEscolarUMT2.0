@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6be3f44-4173-482f-9239-88957066a62d" name="Changes" comment="Avance de la clase ControladorProfesor">
+    <list default="true" id="c6be3f44-4173-482f-9239-88957066a62d" name="Changes" comment="Avance 2 de la clase ControladorProfesor">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CatalogoProfesor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/CatalogoProfesor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ControladorProfesor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ControladorProfesor.java" afterDir="false" />
@@ -72,7 +72,7 @@
       <workItem from="1665020508256" duration="520000" />
       <workItem from="1665023283559" duration="1235000" />
       <workItem from="1665067323317" duration="343000" />
-      <workItem from="1665100336447" duration="8469000" />
+      <workItem from="1665100336447" duration="9679000" />
     </task>
     <task id="LOCAL-00001" summary="Prueba">
       <created>1665067551334</created>
@@ -109,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665109316459</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Avance 2 de la clase ControladorProfesor">
+      <created>1665111102528</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1665111102528</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,6 +136,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Prueba" />
     <MESSAGE value="Avance de la clase ControladorProfesor" />
-    <option name="LAST_COMMIT_MESSAGE" value="Avance de la clase ControladorProfesor" />
+    <MESSAGE value="Avance 2 de la clase ControladorProfesor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Avance 2 de la clase ControladorProfesor" />
   </component>
 </project>
