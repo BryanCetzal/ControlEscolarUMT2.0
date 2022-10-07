@@ -33,6 +33,30 @@ public class CatalogoAsignatura {
         return semestre;
     }
 
+    public void catalogo(Integer semestre){
+        switch (semestre) {
+            case 1:
+                break;
+            case 2:
+                break;
+            case 3:
+                break;
+            case 4:
+                break;
+            case 5:
+                break;
+            case 6:
+                break;
+            case 7:
+                break;
+            case 8:
+                break;
+            case 9:
+                break;
+        }
+
+    }
+
     public Integer asigSoliMatricula(){
         Integer matricula;
         System.out.println("Ingrese la matricula: ");
@@ -67,6 +91,8 @@ public class CatalogoAsignatura {
         return respuesta.equalsIgnoreCase("S");
     }
 
+
+//Empiezan los mensajes que pueden aparecer
     public void msgAgregadoExito(){
         System.out.println("Asignatura agregada exitosamente");
     }
@@ -93,6 +119,10 @@ public class CatalogoAsignatura {
     }
     public void NoKardex() {
         System.out.println("No se pudo encontrar el kardex.");
+    }
+
+    public void primerSemestre(){
+        System.out.println("Clave \t Asignatura\t\t Creditos ");
     }
 
 }
