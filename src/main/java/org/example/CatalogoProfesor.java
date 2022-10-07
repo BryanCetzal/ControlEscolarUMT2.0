@@ -1,4 +1,5 @@
 package org.example;
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class CatalogoProfesor {
@@ -42,7 +43,20 @@ public class CatalogoProfesor {
         scan = new Scanner(System.in);
         return scan.nextInt();
     }
-    public void imprimirInfoProfe(Profesor obj1) {
+    public void imprimirInfoProfesor(Profesor obj1) {
+        System.out.println(obj1);
+    }
+    public void imprimirInfoTotal(ArrayList<Profesor> estudiantes) {
+        estudiantes.forEach(System.out::println);
+    }
+    public void imprimeInfoBorrado(boolean e) {
+        if (e) {
+            System.out.println("Borrado exitosamente.");
+        } else {
+            System.out.println("No se encontró el elemento.");
+        }
+    }
+    public void ImprimirInfoProfe(Profesor obj1) {
         System.out.println(obj1);
     }
     public Integer MenuModificarProfe(){
