@@ -2,22 +2,18 @@ package org.example;
 import java.util.ArrayList;
 
 public class ControladorProfesor {
+//ARRAYLIST
     ArrayList<Profesor> profList;
     CatalogoProfesor vista;
     Profesor obj1;
 
+//CONSTRUCTOR
     ControladorProfesor(CatalogoProfesor vista){
         profList = new ArrayList<Profesor>();
         this.vista = vista;
     }
-    public void addProfesor(){
-        obj1 = new Profesor(vista.SolicitarNomProfe(),
-                vista.SolicitarMateria(),
-                vista.SolicitarEdadProfe(),
-                vista.SolicitarFacultadProfe(),
-                vista.SolicitarClaveProfe());
-        profList.add(obj1);
-    }
+
+//MENÚ PRINCIPAL DE PROFESORES
     public void MainMenuProfe(){
         int opcion = 0;
         while (opcion != 6){
@@ -30,7 +26,7 @@ public class ControladorProfesor {
                     vista.imprimeInfoBorrado(borrarProfesor(aux));
                     break;
                 case 3:
-                    menuModificarProfesor();
+                    MainMenuModificarProfesor();
                     break;
                 case 4:
                     aux = vista.SolicitarClaveProfe();
@@ -47,6 +43,16 @@ public class ControladorProfesor {
 
             }
         }
+    }
+
+//MÉTODOS PRINCIPALES PARA EL MENÚ
+    public void addProfesor(){
+        obj1 = new Profesor(vista.SolicitarNomProfe(),
+                vista.SolicitarMateria(),
+                vista.SolicitarEdadProfe(),
+                vista.SolicitarFacultadProfe(),
+                vista.SolicitarClaveProfe());
+        profList.add(obj1);
     }
     private Integer buscarProfesor(Integer clave) {
         for (int i = 0; i < profList.size(); i++){
@@ -108,7 +114,8 @@ public class ControladorProfesor {
         }
     }
 
-    private void menuModificarProfesor() {
+//MENÚ PRINCIPAL PARA MODIFICAR DATOS DE UN PROFESOR
+    private void MainMenuModificarProfesor() {
         Integer opcion = 0;
         Integer ClaveAux = 0;
         boolean resultado;

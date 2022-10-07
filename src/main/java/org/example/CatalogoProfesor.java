@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class CatalogoProfesor {
     private Scanner scan;
 
+//MÉTODOS DE SOLICITUD DE DATOS
     public String SolicitarNomProfe(){
         System.out.println("Nombre del profesor: ");
         scan = new Scanner(System.in);
@@ -31,6 +32,7 @@ public class CatalogoProfesor {
         return scan.nextInt();
     }
 
+//MENÚ DE OPCIONES
     public Integer MenuProfe(){
         System.out.println("MENÚ - PROFESORES");
         System.out.println("[1] - Agregar nuevo profesor.");
@@ -43,6 +45,8 @@ public class CatalogoProfesor {
         scan = new Scanner(System.in);
         return scan.nextInt();
     }
+
+//OTROS MÉTODOS IMPORTANTES
     public void imprimirInfoProfesor(Profesor obj1) {
         System.out.println(obj1);
     }
@@ -59,6 +63,8 @@ public class CatalogoProfesor {
     public void ImprimirInfoProfe(Profesor obj1) {
         System.out.println(obj1);
     }
+
+//MENÚ DE OPCIONES PARA MODIFICAR DATOS DE PROFESOR
     public Integer MenuModificarProfe(){
         System.out.println("MODIFICAR DATOS DE UN PROFESOR");
         System.out.println("[1] - Modificar el nombre.");
