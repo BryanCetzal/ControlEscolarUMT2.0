@@ -36,22 +36,60 @@ public class CatalogoAsignatura {
     public void catalogo(Integer semestre){
         switch (semestre) {
             case 1:
+                System.out.println("[] - Álgebra Intermedia.");
+                System.out.println("[] - Geometría Analítica.");
+                System.out.println("[] - Algoritmia.");
+                System.out.println("[] - Fundamentos de Ingeniería de Software.");
+                System.out.println("[] - Responsabilidad Social Universitaria.");
+
                 break;
             case 2:
+                System.out.println("[] - Álgebra Superior.");
+                System.out.println("[] - Cálculo Diferencial.");
+                System.out.println("[] - Programación Estructurada.");
+                System.out.println("[] - Matemáticas Discretas.");
+                System.out.println("[] - Cultura Maya");
                 break;
             case 3:
+                System.out.println("[] - Álgebra Lineal.");
+                System.out.println("[] - Cálculo Integral.");
+                System.out.println("[] - Programación Orientada a Objetos.");
+                System.out.println("[] - Teoría de la Computación.");
+                System.out.println("[] - Arquitectura y Organización de Computadoras.");
                 break;
             case 4:
+                System.out.println("[] - Probabilidad.");
+                System.out.println("[] - Diseño de Software.");
+                System.out.println("[] - Estructura de Datos.");
+                System.out.println("[] - Sistemas Operativos.");
+                System.out.println("[] - Teoría de Lenguajes de Programación.");
                 break;
             case 5:
+                System.out.println("[] - Inferencia Estadistica.");
+                System.out.println("[] - Arquitecturas de Software.");
+                System.out.println("[] - Construcción de Software.");
+                System.out.println("[] - Diseño de Bases de Datos.");
+                System.out.println("[] - Desarrollo de Aplicaciones Web.");
                 break;
             case 6:
+                System.out.println("[] - Métricas de Software.");
+                System.out.println("[] - Aseguramiento de la Cakidad del Software.");
+                System.out.println("[] - REquisitos de Software.");
+                System.out.println("[] - Interacción Humano Computadora.");
                 break;
             case 7:
+                System.out.println("[] - Experimentación en Ingeniería de Software.");
+                System.out.println("[] - Verificación y Validación de Software.");
+                System.out.println("[] - Redes y Seguridad de Computadoras.");
+                System.out.println("[] - Innovación Tecnológica.");
                 break;
             case 8:
+                System.out.println("[] - Administración de Proyectos I.");
+                System.out.println("[] - Mantenimiento de Software.");
+                System.out.println("[] - Sistemas Distribuidos.");
                 break;
             case 9:
+                System.out.println("[] - Administración de Proyectos II");
                 break;
         }
 

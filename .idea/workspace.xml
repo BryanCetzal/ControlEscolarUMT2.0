@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6be3f44-4173-482f-9239-88957066a62d" name="Changes" comment="Avance 2 de la clase ControladorProfesor">
+    <list default="true" id="c6be3f44-4173-482f-9239-88957066a62d" name="Changes" comment="Correción de detalles de las 3 clases para profesores">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CatalogoProfesor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/CatalogoProfesor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ControladorProfesor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ControladorProfesor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +70,7 @@
       <workItem from="1665020508256" duration="520000" />
       <workItem from="1665023283559" duration="1235000" />
       <workItem from="1665067323317" duration="343000" />
-      <workItem from="1665100336447" duration="9679000" />
+      <workItem from="1665100336447" duration="10712000" />
     </task>
     <task id="LOCAL-00001" summary="Prueba">
       <created>1665067551334</created>
@@ -116,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665111102528</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Correción de detalles de las 3 clases para profesores">
+      <created>1665112252639</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1665112252639</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,6 +142,7 @@
     <MESSAGE value="Prueba" />
     <MESSAGE value="Avance de la clase ControladorProfesor" />
     <MESSAGE value="Avance 2 de la clase ControladorProfesor" />
-    <option name="LAST_COMMIT_MESSAGE" value="Avance 2 de la clase ControladorProfesor" />
+    <MESSAGE value="Correción de detalles de las 3 clases para profesores" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correción de detalles de las 3 clases para profesores" />
   </component>
 </project>
