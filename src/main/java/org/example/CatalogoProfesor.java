@@ -42,6 +42,9 @@ public class CatalogoProfesor {
         scan = new Scanner(System.in);
         return scan.nextInt();
     }
+    public void imprimirInfoProfe(Profesor obj1) {
+        System.out.println(obj1);
+    }
     public Integer MenuModificarProfe(){
         System.out.println("MODIFICAR DATOS DE UN PROFESOR");
         System.out.println("[1] - Modificar el nombre.");
