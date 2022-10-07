@@ -36,60 +36,60 @@ public class CatalogoAsignatura {
     public void catalogo(Integer semestre){
         switch (semestre) {
             case 1:
-                System.out.println("[] - Álgebra Intermedia.");
-                System.out.println("[] - Geometría Analítica.");
-                System.out.println("[] - Algoritmia.");
-                System.out.println("[] - Fundamentos de Ingeniería de Software.");
-                System.out.println("[] - Responsabilidad Social Universitaria.");
+                System.out.println("[ALGI] - Álgebra Intermedia.");
+                System.out.println("[GEOA] - Geometría Analítica.");
+                System.out.println("[ALGO] - Algoritmia.");
+                System.out.println("[FUIS] - Fundamentos de Ingeniería de Software.");
+                System.out.println("[RESU] - Responsabilidad Social Universitaria.");
 
                 break;
             case 2:
-                System.out.println("[] - Álgebra Superior.");
-                System.out.println("[] - Cálculo Diferencial.");
-                System.out.println("[] - Programación Estructurada.");
-                System.out.println("[] - Matemáticas Discretas.");
-                System.out.println("[] - Cultura Maya");
+                System.out.println("[ALGS] - Álgebra Superior.");
+                System.out.println("[CALD] - Cálculo Diferencial.");
+                System.out.println("[PROE] - Programación Estructurada.");
+                System.out.println("[MATD] - Matemáticas Discretas.");
+                System.out.println("[CULM] - Cultura Maya");
                 break;
             case 3:
-                System.out.println("[] - Álgebra Lineal.");
-                System.out.println("[] - Cálculo Integral.");
-                System.out.println("[] - Programación Orientada a Objetos.");
-                System.out.println("[] - Teoría de la Computación.");
-                System.out.println("[] - Arquitectura y Organización de Computadoras.");
+                System.out.println("[ALGL] - Álgebra Lineal.");
+                System.out.println("[CALI] - Cálculo Integral.");
+                System.out.println("[PROO] - Programación Orientada a Objetos.");
+                System.out.println("[TEOC] - Teoría de la Computación.");
+                System.out.println("[AROC] - Arquitectura y Organización de Computadoras.");
                 break;
             case 4:
-                System.out.println("[] - Probabilidad.");
-                System.out.println("[] - Diseño de Software.");
-                System.out.println("[] - Estructura de Datos.");
-                System.out.println("[] - Sistemas Operativos.");
-                System.out.println("[] - Teoría de Lenguajes de Programación.");
+                System.out.println("[PROB] - Probabilidad.");
+                System.out.println("[DISS] - Diseño de Software.");
+                System.out.println("[ESTD] - Estructura de Datos.");
+                System.out.println("[SISO] - Sistemas Operativos.");
+                System.out.println("[TELP] - Teoría de Lenguajes de Programación.");
                 break;
             case 5:
-                System.out.println("[] - Inferencia Estadistica.");
-                System.out.println("[] - Arquitecturas de Software.");
-                System.out.println("[] - Construcción de Software.");
-                System.out.println("[] - Diseño de Bases de Datos.");
-                System.out.println("[] - Desarrollo de Aplicaciones Web.");
+                System.out.println("[INFE] - Inferencia Estadistica.");
+                System.out.println("[ARQS] - Arquitecturas de Software.");
+                System.out.println("[CONS] - Construcción de Software.");
+                System.out.println("[DIBD] - Diseño de Bases de Datos.");
+                System.out.println("[DEAW] - Desarrollo de Aplicaciones Web.");
                 break;
             case 6:
-                System.out.println("[] - Métricas de Software.");
-                System.out.println("[] - Aseguramiento de la Cakidad del Software.");
-                System.out.println("[] - REquisitos de Software.");
-                System.out.println("[] - Interacción Humano Computadora.");
+                System.out.println("[METS] - Métricas de Software.");
+                System.out.println("[ASCS] - Aseguramiento de la Calidad del Software.");
+                System.out.println("[REQS] - Requisitos de Software.");
+                System.out.println("[INHC] - Interacción Humano Computadora.");
                 break;
             case 7:
-                System.out.println("[] - Experimentación en Ingeniería de Software.");
-                System.out.println("[] - Verificación y Validación de Software.");
-                System.out.println("[] - Redes y Seguridad de Computadoras.");
-                System.out.println("[] - Innovación Tecnológica.");
+                System.out.println("[EXIS] - Experimentación en Ingeniería de Software.");
+                System.out.println("[VEVS] - Verificación y Validación de Software.");
+                System.out.println("[RESC] - Redes y Seguridad de Computadoras.");
+                System.out.println("[INNT] - Innovación Tecnológica.");
                 break;
             case 8:
-                System.out.println("[] - Administración de Proyectos I.");
-                System.out.println("[] - Mantenimiento de Software.");
-                System.out.println("[] - Sistemas Distribuidos.");
+                System.out.println("[ADPI] - Administración de Proyectos I.");
+                System.out.println("[MANS] - Mantenimiento de Software.");
+                System.out.println("[SISD] - Sistemas Distribuidos.");
                 break;
             case 9:
-                System.out.println("[] - Administración de Proyectos II");
+                System.out.println("[APII] - Administración de Proyectos II");
                 break;
         }
 
