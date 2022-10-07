@@ -2,12 +2,22 @@ package org.example;
 
 public class Main {
     public static void main(String[] args) {
-         Asignatura obj1 = new Asignatura("Calculo", 3, 9, 101);
+        /* Asignatura obj1 = new Asignatura("Calculo", 3, 9, 101);
 
          Estudiante obj = new Estudiante(12343, "Emmanuel Cetzal", 19, 3, "Matematicas",
                  95.9, obj1);
-
-        System.out.println(obj1);
+          System.out.println(obj1);
         System.out.println(obj);
+         */
+
+        CatalogoPrincipal obj = new CatalogoPrincipal();
+        CatalogoEstudiante estudiante = new CatalogoEstudiante();
+        CatalogoProfesor profesor = new CatalogoProfesor();
+        CatalogoAsignatura asignatura = new CatalogoAsignatura();
+
+        ControladorPrincipal programa = new ControladorPrincipal(obj, estudiante, asignatura, profesor);
+
+        programa.menu();
+
     }
 }

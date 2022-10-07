@@ -29,12 +29,12 @@ public class ControladorProfesor {
                     MainMenuModificarProfesor();
                     break;
                 case 4:
-                    vista.imprimirInfoTotal(profList);
-                    break;
-                case 5:
                     aux = vista.SolicitarClaveProfe();
                     Integer pos = buscarProfesor(aux);
                     vista.imprimirInfoProfesor(profList.get(pos));
+                    break;
+                case 5:
+                    vista.imprimirInfoTotal(profList);
                     break;
                 case 6:
                     opcion = 6;
