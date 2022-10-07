@@ -12,4 +12,6 @@ public class ControladorAsignatura {
         asigList = new ArrayList<Asignatura>();
         this.vista = vista;
     }
+
+
 }

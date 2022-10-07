@@ -45,7 +45,6 @@ public class ControladorEstudiante {
                     break;
                 case 6:
                     opcion = 6;
-                    //vista.msgGracias();
                     break;
             }
         }
