@@ -34,8 +34,11 @@ public class ControladorAsignatura {
                     vista.addAsignatura();
                     break;
                 case 2:
+                   aux = vista.asigSoliMatricula();
+
                     break;
                 case 3:
+                    aux = vista.asigSoliMatricula();
                     break;
                 case 4:
                     opcion = 4;
