@@ -31,6 +31,7 @@ public class ControladorAsignatura {
                     aux = vista.asigSolicitarSemestre();
                     vista.catalogo(aux);
                     vista.asigSolicitarClave();
+                    vista.addAsignatura();
                     break;
                 case 2:
                     break;
