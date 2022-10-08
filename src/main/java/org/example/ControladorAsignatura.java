@@ -30,6 +30,7 @@ public class ControladorAsignatura {
                     vista.asigSoliMatricula();
                     aux = vista.asigSolicitarSemestre();
                     vista.catalogo(aux);
+                    vista.asigSolicitarClave();
                     break;
                 case 2:
                     break;
