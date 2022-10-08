@@ -4,16 +4,19 @@ import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class ControladorAsignatura {
-    ArrayList<Asignatura> asigList;
-    CatalogoAsignatura vista;
-    Asignatura objAsig;
+    private ArrayList<Asignatura> asigList;
+    private ArrayList<Asignatura> auxList;
+    private CatalogoAsignatura vista;
+    private Asignatura objAsig;
 
     ControladorAsignatura(CatalogoAsignatura vista){
         asigList = new ArrayList<Asignatura>();
+        auxList = new ArrayList<Asignatura>();
         this.vista = vista;
     }
     public void addAsignatura(){
-        objAsig = new Asignatura();
+
+        objAsig = new Asignatura("Algrebra Intermedia", 1, 8, 1001);
         asigList.add(objAsig);
     }
 
@@ -39,4 +42,6 @@ public class ControladorAsignatura {
 
         }while (opcion != 4);
     }
+
+
 }

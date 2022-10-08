@@ -88,7 +88,7 @@ public class Estudiante {
 
     @Override
     public String toString() {
-        return "Asignatura{" +
+        return "Estudiante{" +
                 "matricula=" + matricula +
                 ", nombre='" + nombre + '\'' +
                 ", edad=" + edad +

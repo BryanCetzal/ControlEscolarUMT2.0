@@ -30,6 +30,8 @@ public class ControladorPrincipal {
                 case 4:
                     opcion =  4;
                     break;
+                default:
+                    System.out.println("Ingrese una opcion valida");
             }
 
         }while(opcion != 4);
