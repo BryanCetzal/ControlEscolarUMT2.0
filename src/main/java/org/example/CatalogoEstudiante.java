@@ -49,12 +49,12 @@ public class CatalogoEstudiante {
     public Integer menu() {
         scanner = new Scanner(System.in);
         System.out.println("Menu");
-        System.out.println("1- Agregar Estudiante");
-        System.out.println("2- Borrar Estudiante");
-        System.out.println("3- Modificar Estudiante");
-        System.out.println("4- Desplegar lista");
-        System.out.println("5- Desplegar Estudiante");
-        System.out.println("6- Salir");
+        System.out.println("[1] - Agregar Estudiante");
+        System.out.println("[2] - Borrar Estudiante");
+        System.out.println("[3] - Modificar Estudiante");
+        System.out.println("[4] - Desplegar lista");
+        System.out.println("[5]- Desplegar Estudiante");
+        System.out.println("[6] - Salir");
         System.out.println("\nOpcion: ");
         return scanner.nextInt();
     }
