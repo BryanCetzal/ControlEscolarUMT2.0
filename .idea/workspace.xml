@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6be3f44-4173-482f-9239-88957066a62d" name="Changes" comment="Añadí créditos al Menú de Asignaturas">
+    <list default="true" id="c6be3f44-4173-482f-9239-88957066a62d" name="Changes" comment="Error de sintaxis de bryan CORREGIDO">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CatalogoAsignatura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/CatalogoAsignatura.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Asignatura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Asignatura.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +74,7 @@
       <workItem from="1665023283559" duration="1235000" />
       <workItem from="1665067323317" duration="343000" />
       <workItem from="1665100336447" duration="15655000" />
-      <workItem from="1665187240250" duration="748000" />
+      <workItem from="1665187240250" duration="2643000" />
     </task>
     <task id="LOCAL-00001" summary="Prueba">
       <created>1665067551334</created>
@@ -145,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665116331493</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Error de sintaxis de bryan CORREGIDO">
+      <created>1665188779900</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1665188779900</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,7 +164,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -170,6 +190,7 @@
     <MESSAGE value="Menú de Asignaturas de Catálogo Asignatura" />
     <MESSAGE value="Añadí claves al Menú de Asignaturas" />
     <MESSAGE value="Añadí créditos al Menú de Asignaturas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Añadí créditos al Menú de Asignaturas" />
+    <MESSAGE value="Error de sintaxis de bryan CORREGIDO" />
+    <option name="LAST_COMMIT_MESSAGE" value="Error de sintaxis de bryan CORREGIDO" />
   </component>
 </project>

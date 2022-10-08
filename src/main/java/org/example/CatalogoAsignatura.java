@@ -9,10 +9,10 @@ public class CatalogoAsignatura {
         int opcion;
         do {
             System.out.println("Menu de carga de asignaturas");
-            System.out.println("1 - Seleccionar asignatura.");
-            System.out.println("2 - Eliminar asignatura.");
-            System.out.println("3 - Mostrar asignaturas cargadas.");
-            System.out.println("4 - Salir.");
+            System.out.println("[1] - Seleccionar asignatura.");
+            System.out.println("[2] - Eliminar asignatura.");
+            System.out.println("[3] - Mostrar asignaturas cargadas.");
+            System.out.println("[4] - Salir.");
             opcion = lectura.nextInt();
 
             if (opcion < 1 || opcion>4)

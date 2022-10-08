@@ -53,11 +53,9 @@ public class Asignatura {
 
     @Override
     public String toString() {
-        return "Asignatura{" +
-                "nombreAsig='" + nombreAsig + '\'' +
-                ", semestre=" + semestre +
-                ", creditos=" + creditos +
-                ", clave=" + clave +
-                '}';
+        return nombreAsig +
+                ", semestre =" + " "+ semestre +
+                ", creditos =" + " "+ creditos +
+                ", clave =" + " "+ clave;
     }
 }
